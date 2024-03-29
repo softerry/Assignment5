@@ -1,0 +1,27 @@
+/* body */
+body{
+    background-color:#999999;
+    color:white;
+}
+/* delete button */
+.close{
+   color: red;
+   float: right;
+   cursor: pointer;
+}
+/* heading */
+h3{
+    text-align: center;
+    font-size: x-large;
+}
+/* container */
+.container{
+    margin: 200px 300px;
+    width: 50%;
+}
+/* text input */
+#input{
+    width: 90%;
+}
+
+
