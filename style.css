@@ -1,6 +1,6 @@
 /* body */
 body{
-    background-color:#999999;
+    background-color:black;
     color:white;
 }
 /* delete button */
@@ -8,6 +8,9 @@ body{
    color: red;
    float: right;
    cursor: pointer;
+   border: 1px solid black;
+   font-size: 15px;
+   border-radius: 3px;
 }
 /* heading */
 h3{
@@ -16,12 +19,18 @@ h3{
 }
 /* container */
 .container{
-    margin: 200px 300px;
+    margin: 100px 300px;
     width: 50%;
 }
 /* text input */
 #input{
     width: 90%;
 }
-
-
+li{
+ font-size: 25px;
+ border-bottom: 1px solid white;
+ padding-top: 5px;
+}
+button{
+  letter-spacing: 2px;
+}
